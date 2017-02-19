@@ -71,6 +71,6 @@ deploy:
   type: rsync
   host: code-run.com
   user: baozi
-  root: ~blog
+  root: blog
   port: 22
   delete: false
