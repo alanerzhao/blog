@@ -68,4 +68,9 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: code-run.com
+  user: baozi
+  root: /blog
+  port: 22
+  delete: false
